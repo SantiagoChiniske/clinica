@@ -1,0 +1,15 @@
+.section-conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.section-conteudo h2{
+    color: var(--cor-tipografia);
+    font-size: 1.5em;
+    margin: 2em 0;
+}
+
+.info-carrosel{
+    margin: 3em 0;
+}

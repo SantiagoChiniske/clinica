@@ -1,0 +1,40 @@
+.section-consulta{
+    display: flex;
+    flex-direction: column;
+}
+.section-consulta  h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 2em 0 1em 0;
+}
+
+.section-consulta h3{
+    font-size: 1.3em;
+    color: var(--cor-tipografia);
+}
+
+.section-consulta-paragrafo{
+    color: var(--cor-tipografia);
+    margin: 2em 0;
+}
+
+.section-consulta-info p{
+    margin: 1em 0;
+}
+.section-consulta-info strong{
+    margin-right: 1em;
+}
+
+.section-consulta-option{
+    background-color: var(--cor-principal);
+    color: #ffffff;
+    height: 2.3em;
+    width: 11em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+
+.section-consulta button{
+    margin-bottom: 2em;
+}

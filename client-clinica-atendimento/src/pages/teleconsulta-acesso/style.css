@@ -1,0 +1,77 @@
+.teleconsulta-webcam{
+display: flex;
+align-items: end;
+}
+
+.teleconsulta-webacam-medico{
+    background-color: grey;
+    width: 40em;
+    height: 30em;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image:url("../../assets/img-medico.png") ;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+}
+.webcam-medico-button{
+    width: 14em;
+    height: 3.5em;
+    background-color: #A1A1A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10em;
+    margin-bottom: 0.3em;
+}
+
+.webcam-medico-button button{
+    border-radius: 100%;
+    background-color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+.webcam-medico-button img{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.teleconsulta-webacam-medico p{
+    color: #ffffff;
+    background-color: #A1A1A1;
+    opacity: 95%;
+   margin-bottom: 0.3em;
+   width: 10em;
+   height: 1.4em;
+   border-radius: 5px;
+}
+
+.teleconsulta-web-cam-paciente{
+    width: 15em;
+    height: 10em;
+    background-color: #A1A1A1;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    background-image: url("../../assets/img-paciente.png");
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teleconsulta-web-cam-paciente p{
+    color: #ffffff;
+    background-color: #A1A1A1;
+    opacity: 95%;
+   margin-bottom: 0.3em;
+   width: 10em;
+   height: 1em;
+   border-radius: 5px;
+
+}

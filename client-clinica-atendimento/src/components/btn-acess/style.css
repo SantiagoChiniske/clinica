@@ -1,0 +1,12 @@
+.btn-acess{
+    background-color: var(--cor-principal);
+    color: #ffffff;
+    border: 2px solid var(--cor-principal);
+    width: 7em;
+    height: 2.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-acess-sumir {
+    visibility:hidden;
+}

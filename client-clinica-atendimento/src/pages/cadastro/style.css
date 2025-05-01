@@ -1,0 +1,90 @@
+.container-cadastro-centralizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-cadastro{
+    width: 45em;
+    height: 30em;
+    border-radius: 20px;   
+    display: flex; 
+    border: 3px solid #DDDDDD;
+}
+
+.cadastro-img{
+    background-color: var(--cor-principal);
+    height: 30em;
+    width: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.cadastro-img img{
+    width: 7em;
+    height:7em;
+}
+
+.cadastro-form{
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-form h3{
+    font-size: 30px;
+    color: var(--cor-tipografia);
+    text-align: center;
+}
+
+.login-input{
+    margin-bottom: 0em;
+    margin-top: 2em;
+}
+
+.login-reset-password{
+    font-size: 0.7em;
+    text-decoration: underline;
+    margin: 8px 0;
+    padding-left: 11em;
+    cursor: pointer;
+}
+.divisor{
+    width: 12em;
+    margin: 10px 0 ;
+    border-bottom:  2px solid #DDDDDD ;
+    border-radius: 20px;
+}
+.container-btn{
+    display: flex;
+    justify-content: space-between  ;
+    width: 13em;
+}
+
+
+
+.login-administrativo{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: var(--cor-tipografia);
+}
+
+.cadastro-input{
+     margin: 1.5em 0;
+}
+
+.cadastro-input Input{
+    margin-bottom: 0.3em;
+}
+
+.cadastro-input p{
+    margin-top: 0.5em;
+}
+.cadastro-btn{
+margin-left:6em;
+}

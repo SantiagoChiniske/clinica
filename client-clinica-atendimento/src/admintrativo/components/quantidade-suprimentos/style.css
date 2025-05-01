@@ -1,0 +1,29 @@
+
+
+.quantidade-suprimentos{
+    width: 10em;
+    height: 10em;
+    background-color: var(--cor-principal-administrativo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.3em;
+    border-radius: 5px;
+}
+.quantidade-suprimentos p{
+    color: var(--cor-tipografia);
+}
+.suprimentos-paragrafo1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.suprimentos-paragrafo2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.suprimentos-paragrafo3{
+    font-weight: 700;
+    font-size: 4em;
+}

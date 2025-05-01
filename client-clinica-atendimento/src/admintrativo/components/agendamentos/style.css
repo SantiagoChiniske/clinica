@@ -1,0 +1,22 @@
+.hisoricos-administrativo{
+    margin: 0.3em 0;
+    margin-bottom:1em;
+    justify-content: center;
+}
+
+.info-agendamentos p{
+    color: var(--cor-tipografia);
+    font-size: 0.7em;
+    padding: 0.5em 0;
+}
+
+.info-agendamentos strong{
+    font-weight: 600;
+    margin-right: 0.7em;
+}
+.divisor-principal{
+    width: 15em;
+    margin: 1em 0;
+    border-bottom:  3px solid #DDDDDD    ;
+    border-radius: 20px;
+}

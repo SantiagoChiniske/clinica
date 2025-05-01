@@ -1,0 +1,28 @@
+.suprimentos-adicionar{
+    display: flex;
+    justify-content: space-between;
+    width: 50em;
+    align-items: center;
+}
+
+.suprimentos-adicionar a{
+    background-color: var(--cor-principal-administrativo);
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    padding: 0em 1em;
+    border-radius: 5px;
+}
+
+.img-adicionar{
+    width: 2em;
+    height: 2em;
+}
+
+.lista-de-medicamento{
+    display: flex;
+}
+.lista-de-medicamento section{
+    margin-right: 1em;
+    margin-top: 1em;
+}

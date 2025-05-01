@@ -1,0 +1,10 @@
+.section-cadastro{
+    width: 13em;
+    height: 2.5em;
+    border: 1px solid var(--cor-tipografia);
+    color: var(--cor-tipografia);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+}

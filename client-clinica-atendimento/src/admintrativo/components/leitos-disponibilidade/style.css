@@ -1,0 +1,31 @@
+.titulo-leitos{
+    color: var(--cor-tipografia);
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.bloco-disponibilidade-indisponivel{
+    background-color: #8C3535;
+    width:8em;
+    display: flex;
+    align-items: center;
+    padding: 1.2em 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-right: 1em;
+}
+.bloco-disponibilidade-disponivel{
+    background-color: #437E3B;
+    width:8em;
+    display: flex;
+    align-items: center;
+    padding: 1.2em 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: em;
+    margin-right: 1em;
+}

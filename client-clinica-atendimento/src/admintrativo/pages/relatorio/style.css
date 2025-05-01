@@ -1,0 +1,16 @@
+.input-date{
+    display: flex;
+    color: var(--cor-tipografia);
+    padding: 1em 0em;
+    align-items: center;
+}
+.input-date input{
+    padding: 0.5em;
+    border: 1px solid var(--cor-tipografia);
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.input-date span {
+    margin: 0 1em;
+}

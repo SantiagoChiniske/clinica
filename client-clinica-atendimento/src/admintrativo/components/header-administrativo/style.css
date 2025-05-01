@@ -1,0 +1,64 @@
+.header-nav-horizontal-administrativo{
+    background-color: var(--cor-principal-administrativo);
+    display: flex;
+    height: 6em;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.header-nav-horizontal-administrativo nav{
+    display: flex;
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.header-nav-horizontal-administrativo h2{
+    color: var(--cor-tipografia);
+    font-size: 2em;
+    margin-right: 1.5em;
+}
+
+.header-nav-horizontal-administrativo a{
+    color: var(--cor-tipografia);
+    text-decoration: none;
+    margin-left: 3em;
+    font-weight: 300;
+}
+
+.header-nav-horizontal-administrativo img{
+    width: 5em;
+}
+
+.header-nav-vertical-administrativo{
+    display: flex;
+}
+
+.header-nav-vertical-administrativo nav{
+    background-color: var(--cor-principal-administrativo);
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav-vertical-administrativo h3{
+    color: var(--cor-tipografia);
+    margin: 2em 0;
+}
+
+.header-nav-vertical-administrativo a{
+    display: flex;
+    justify-content: space-between;
+    width: 8em;
+    margin: 1em 0 0 0  ;
+    color: var(--cor-tipografia);
+    text-decoration: none;
+}
+.nav-button-admin{
+    margin: 10em 0;
+    padding: 0.5em 2em;
+    background-color: var(--cor-tipografia);
+    border: 1px solid var(--cor-tipografia);
+    border-radius: 5px;
+    color: #ffffff;
+}

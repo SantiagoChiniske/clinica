@@ -1,0 +1,367 @@
+{
+"usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Santiago Chiniske Pereira",
+      "url_img":"https://i.postimg.cc/DfcmHNQS/Whats-App-Image-2025-04-23-at-20-16-29.jpg",
+      "usuario": "santiagochiniske",
+      "senha": "123456",
+      "cpf": "123.456.789-00",
+      "telefone": "(41) 99999-0001",
+      "email": "santiago.chiniske@email.com",
+      "doenca": ["Ansiedade","Depressao"],
+      "consultas": [
+       
+      ],
+      "historico": [
+        {
+          "id": 1,
+          "nomeMedico": "Carlos Eduardo Freitas",
+          "modelo": "Teleconsulta",
+          "data": "2025-03-10",
+          "horario": "14:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Maria Clara Souza",
+      "usuario": "mariaclarasouza",
+      "senha": "123456",
+      "cpf": "234.567.890-11",
+      "telefone": "(41) 98888-1111",
+      "email": "maria.souza@email.com",
+      "doenca": "Diabetes",
+      "consultas": [
+        {
+          "id": 2,
+          "nomeMedico": "Juliana Castro Ribeiro",
+          "modelo": "Teleconsulta",
+          "data": "2025-04-21",
+          "horario": "11:30"
+        }
+      ],
+      "historico": [
+        {
+          "id": 2,
+          "nomeMedico": "Larissa Costa Martins",
+          "modelo": "Presencial",
+          "data": "2025-02-15",
+          "horario": "16:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nomeCompleto": "Carlos Henrique Lima",
+      "usuario": "carloshenriquelima",
+      "senha": "123456",
+      "cpf": "345.678.901-22",
+      "telefone": "(41) 97777-2222",
+      "email": "carlos.lima@email.com",
+      "doenca": "Asma",
+      "consultas": [
+        {
+          "id": 3,
+          "nomeMedico": "Gabriel Monteiro Lopes",
+          "modelo": "Presencial",
+          "data": "2025-04-19",
+          "horario": "10:00"
+        }
+      ],
+      "historico": [
+        {
+          "id": 3,
+          "nomeMedico": "Patrícia Nogueira Luz",
+          "modelo": "Teleconsulta",
+          "data": "2025-01-30",
+          "horario": "15:00"
+        }
+      ]
+    }
+  ],
+
+
+
+  
+  "medicos": [
+    {
+      "nomeCompleto": "Ana Beatriz Lima",
+      "usuario": "anabeatrizlima",
+      "senha": "123456",
+      "clinica": "Clínica Vida Plena",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.8,
+      "especialidade": "Clinico Geral"
+    },
+    {
+      "nomeCompleto": "Lucas Henrique Souza",
+      "usuario": "lucashenriquesouza",
+      "senha": "123456",
+      "clinica": "Centro Médico Curitiba",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.7,
+      "especialidade": "Clinico Geral"
+    },
+    {
+      "nomeCompleto": "Fernanda Dias Almeida",
+      "usuario": "fernandadiasalmeida",
+      "senha": "123456",
+      "clinica": "Curitiba Clinic",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.6,
+      "especialidade": "Clinico Geral"
+    },
+    {
+      "nomeCompleto": "Gabriel Monteiro Lopes",
+      "usuario": "gabrielmonteirolopes",
+      "senha": "123456",
+      "clinica": "Instituto Curitiba Saúde",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.5,
+      "especialidade": "Pediatria"
+    },
+    {
+      "nomeCompleto": "Juliana Castro Ribeiro",
+      "usuario": "julianacastroribeiro",
+      "senha": "123456",
+      "clinica": "Clinimed Curitiba",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.9,
+      "especialidade": "Clinico Geral"
+    },
+    {
+      "nomeCompleto": "Carlos Eduardo Freitas",
+      "usuario": "carloseduardofreitas",
+      "senha": "123456",
+      "clinica": "Curitiba Ortopedia",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.4,
+      "especialidade": "Ortopedia"
+    },
+    {
+      "nomeCompleto": "Larissa Costa Martins",
+      "usuario": "larissacostamartins",
+      "senha": "123456",
+      "clinica": "Clínica Bem Estar",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.7,
+      "especialidade": "Nutrição"
+    },
+    {
+      "nomeCompleto": "Renato Silva Torres",
+      "usuario": "renatosilatorres",
+      "senha": "123456",
+      "clinica": "Vida Curitiba",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.3,
+      "especialidade": "Neurologia"
+    },
+    {
+      "nomeCompleto": "Patrícia Nogueira Luz",
+      "usuario": "patricianogueiraluz",
+      "senha": "123456",
+      "clinica": "Clínica Neurológica",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.6,
+      "especialidade": "Psiquiatria"
+    },
+    {
+      "nomeCompleto": "Thiago Santos Oliveira",
+      "usuario": "thiagosantosoliveira",
+      "senha": "123456",
+      "clinica": "Curitiba Care",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.8,
+      "especialidade": "Oftalmologia"
+    },
+    {
+      "nomeCompleto": "Marcela Ferreira Prado",
+      "usuario": "marcelaferreiraprado",
+      "senha": "123456",
+      "clinica": "Prado Saúde",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.7,
+      "especialidade": "Endocrinologia"
+    },
+    {
+      "nomeCompleto": "Bruno Almeida Rocha",
+      "usuario": "brunoalmeidarocha",
+      "senha": "123456",
+      "clinica": "Curitiba Clínica Integrada",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.2,
+      "especialidade": "Urologia"
+    },
+    {
+      "nomeCompleto": "Isabela Ramos Cunha",
+      "usuario": "isabelaramoscunha",
+      "senha": "123456",
+      "clinica": "Cuidar Saúde Mulher",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.9,
+      "especialidade": "Ginecologia"
+    },
+    {
+      "nomeCompleto": "Diego Fernandes Lopes",
+      "usuario": "diegofernandeslopes",
+      "senha": "123456",
+      "clinica": "Vida Infantil",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.5,
+      "especialidade": "Pediatria"
+    },
+    {
+      "nomeCompleto": "Amanda Rocha Veiga",
+      "usuario": "amandarochaveiga",
+      "senha": "123456",
+      "clinica": "Clínica Veiga",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.6,
+      "especialidade": "Dermatologia"
+    },
+    {
+      "nomeCompleto": "Felipe Augusto Lima",
+      "usuario": "felipeaugustolima",
+      "senha": "123456",
+      "clinica": "Centro UroCare",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.4,
+      "especialidade": "Urologia"
+    },
+    {
+      "nomeCompleto": "Tatiane Souza Braga",
+      "usuario": "tatianesouzabraga",
+      "senha": "123456",
+      "clinica": "Clínica da Mulher",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.8,
+      "especialidade": "Ginecologia"
+    },
+    {
+      "nomeCompleto": "Rodrigo Farias Mendes",
+      "usuario": "rodrigofariasmendes",
+      "senha": "123456",
+      "clinica": "Saúde Total",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.5,
+      "especialidade": "Ortopedia"
+    },
+    {
+      "nomeCompleto": "Camila Martins Ribeiro",
+      "usuario": "camilamartinsribeiro",
+      "senha": "123456",
+      "clinica": "Clínica Viver Bem",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.6,
+      "especialidade": "Nutrição"
+    },
+    {
+      "nomeCompleto": "Rafael Gomes Pires",
+      "usuario": "rafaelgomespires",
+      "senha": "123456",
+      "clinica": "CardioCuritiba",
+      "localizacao": "Curitiba",
+      "avaliacao": 4.9,
+      "especialidade": "Cardiologia"
+    }
+  ],
+
+
+
+  "consultas":[
+    {
+      "id": 1,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Teleconsulta",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 2,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 3,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 4,
+      "nomeMedico": "Yasmin Candido",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    }
+  ],
+
+
+
+  "historicos":[
+    {
+      "id": 1,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Teleconsulta",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 2,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 3,
+      "nomeMedico": "Ana Beatriz Lima",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    },{
+      "id": 4,
+      "nomeMedico": "Yasmin Candido",
+      "paciente":"Santiago Chiniske Pereira",
+      "modelo": "Presencial",
+      "data": "2025-04-20",
+      "horario": "09:00"
+    }
+  ],
+
+
+
+  "administrativo": [
+    {
+      "id": 1,
+      "nomeCompleto": "Santiago Chiniske Pereira",
+      "usuario": "santiagochiniske",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Bruno Henrique Lima",
+      "usuario": "brunohl",
+      "senha": "bruno456"
+    },
+    {
+      "id": 3,
+      "nomeCompleto": "Carla Mendes Oliveira",
+      "usuario": "carlamendes",
+      "senha": "carla789"
+    },
+    {
+      "id": 4,
+      "nomeCompleto": "Daniel Rocha Silva",
+      "usuario": "danielrs",
+      "senha": "daniel321"
+    }
+  ]
+
+}

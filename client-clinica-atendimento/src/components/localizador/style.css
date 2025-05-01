@@ -1,0 +1,13 @@
+.localizador{
+    background-color: var(--cor-principal);
+    width: 15em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.localizador img{
+    width: 1.3em;
+}

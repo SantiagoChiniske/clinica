@@ -1,0 +1,13 @@
+.cabecalho-agenda{
+    border-bottom:2px solid var(--cor-tipografia) ;
+
+}
+.cabecalho-agenda th{
+    padding: 1.3em;
+    color: var(--cor-tipografia);
+}
+.copo-agenda td{
+    padding: 1.8em;
+
+    color: var(--cor-tipografia);
+}

@@ -1,0 +1,42 @@
+.info-medicos{
+    width: 30em;
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 2em ;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+.info-medicos strong{
+    font-weight: 800;
+}
+.info-medicos h4{
+    margin-bottom: 1em;
+}
+.info-medicos p{
+    margin-bottom: 1em;
+}
+
+.info-medicos-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-medicos-button button{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: var(--cor-principal);
+    border: var(--cor-principal);
+    border-radius: 5px;
+    padding: 0.3em;
+    cursor: pointer;
+}
+.info-medicos-button span{
+    margin-left: 1em;
+}
+.info-medicos-button img{
+    width: 1.5em;
+}

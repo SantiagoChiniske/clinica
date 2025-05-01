@@ -1,0 +1,24 @@
+.btn-acess-administrativo{
+    background-color: var(--cor-tipografia);
+    color: #ffffff;
+    border: 2px solid var(--cor-tipografial);
+    width: 7em;
+    height: 2.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-acess-administrativo-cadastro{
+    background-color: var(--cor-tipografia);
+    color: #ffffff;
+    border: 2px solid var(--cor-tipografial);
+    width: 7em;
+    height: 3em;
+    border-radius: 10px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 1em;
+}
+.btn-acess-sumir {
+    visibility:hidden;
+}

@@ -1,0 +1,32 @@
+.section-perfil-info img{
+    width: 12em;
+    height: 15em;
+    margin-right: 2em;    
+}
+
+.section-perfil-info{
+    display: flex;
+    padding: 2em;
+    margin-top: 3em;
+}
+
+.perfil-info-text p{
+    color: var(--cor-tipografia);
+    margin-top: 0.5em;
+}
+
+.perfil-info-text h2{
+    font-size: 1em;
+    margin:  2em 0;
+}
+.perfil-info-text strong{
+    font-weight: 700;
+}
+
+.perfil-doencas-span{
+    background-color: var(--cor-principal);
+    color: #ffffff;
+    margin: 0 1em;
+    padding: 1em 3em;
+    border-radius: 10px;
+}

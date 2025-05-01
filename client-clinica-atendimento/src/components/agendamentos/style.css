@@ -1,0 +1,23 @@
+.agendamentos{
+    margin: 2em 0;
+    margin-bottom:1em;
+}
+.info-agendamentos p{
+    color: var(--cor-tipografia);
+    font-size: 0.7em;
+    padding: 0.5em 0;
+}
+
+.info-agendamentos strong{
+    font-weight: 600;
+    margin-right: 0.7em;
+}
+.divisor-principal{
+    margin: 1em 0;
+    border-bottom:  3px solid #DDDDDD    ;
+    border-radius: 20px;
+}
+.agendamento-btn button{
+ margin: 1em 1em 0 0em ;
+
+}

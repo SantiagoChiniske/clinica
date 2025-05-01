@@ -1,0 +1,21 @@
+
+.login-form-text{
+    color: var(--cor-tipografia);
+    font-size: 15px;
+    font-weight: 300;
+    padding-right:  10em;
+}
+
+.login-form-input{
+    width: 16em;
+    height: 2.3em;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+}
+.login-form-input::placeholder{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: var(--fonte-principal);
+    color: #163062;
+    opacity: 20%;
+}
